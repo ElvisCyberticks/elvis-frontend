@@ -1,0 +1,101 @@
+.bottom-line {
+    border-bottom: 1px solid #333;
+    padding-bottom: 15px;
+}
+
+.form-top-margin {
+    margin-top: 50px;
+}
+
+.thead-custom {
+    background-color: #eaecef;
+}
+
+.float-child {
+    width: 50%;
+    float: left;
+    /* padding: 20px;
+    border: 2px solid red; */
+}
+
+.table td,
+.table th {
+    padding: 1.5rem 1rem;
+}
+
+.button-width {
+    width: 168px;
+    height: 3.5rem;
+}
+
+.card .card-header h4 {
+    font-size: 14px;
+}
+
+.card .card-header h4 span {
+    padding: 12px 20px;
+    /* width: 300px; */
+    width: 200px;
+    height: 40px;
+    position: relative;
+    color: #fff;
+    background-color: #1643d4;
+}
+
+.card .card-header h4 span:before {
+    content: "";
+    position: absolute;
+    right: -20px;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-left: 20px solid #1643d4;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+}
+
+.card .card-header h4 span:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-left: 20px solid #1643d4;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+}
+
+
+/* .card .card-header h4 span {
+    cursor: pointer;
+    padding: 13px 20px;
+    width: 200px;
+    height: 40px;
+    position: relative;
+    background-color: #1643d4;
+    color: #fff;
+    border: 1px solid #c0c0c0;
+}
+
+.action {
+    color: #1642d4 !important;
+    background-color: #fff !important;
+} */
+
+.card .card-body form .btn-adjust {
+    width: 167px;
+    height: 80px;
+}
+
+.card .card-body h2 {
+    margin-left: 10px;
+    margin-bottom: 20px;
+    font-size: 19px;
+    border-radius: 5px;
+    font-weight: 500;
+    padding: 15px 0px;
+    padding-left: 10px;
+    box-shadow: 0px 0px 8px -2px rgba(78, 78, 78, 0.75);
+    /* background-color: yellowgreen; */
+}
